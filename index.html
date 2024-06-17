@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="Untitled-2.css">
+</head>
+<body>
+	<form name="formcalc">
+	
+	<div class="container" align="center">
+	<input type="text" name="answer" placeholder="0"/><br><br>
+	<input type="button" value="AC" onClick="formcalc.answer.value = '' " class="cs hover">
+	<input type="button" value="DEL" class="cs hover" onClick="formcalc.answer.value = formcalc.answer.value.substring(0,formcalc.answer.value.length-1)">
+	<input type="button" value=" &#129144;" class="cs hover RA" onClick="formcalc.answer.value = formcalc.answer.value.substring(0,formcalc.answer.value.length-1)">
+	<input type="button" value="&#247;" class="special hover" onClick="formcalc.answer.value += '/'"><br />
+	<input type="button" value="7" onClick="formcalc.answer.value += '7' " class="black hover">
+	<input type="button" value="8" onClick="formcalc.answer.value += '8' " class="black hover">
+	<input type="button" value="9" onClick="formcalc.answer.value += '9' " class="black hover">
+	<input type="button" value="&#215;" onClick="formcalc.answer.value += '*'" class="special hover"/><br />
+	<input type="button" value="4" onClick="formcalc.answer.value += '4' " class="black hover">
+	<input type="button" value="5" onClick="formcalc.answer.value +='5' " class="black hover">
+	<input type="button" value="6" onClick="formcalc.answer.value += '6' " class="black hover">
+	<input type="button" value="-" onClick="formcalc.answer.value += '-' " class="special hover"><br />
+	<input type="button" value="1" class="black hover" onClick="formcalc.answer.value += '1'">
+	<input type="button" value="2" class="black hover" onClick="formcalc.answer.value += '2'">
+	<input type="button" value="3" onClick="formcalc.answer.value += '3' " class="black hover">
+	<input type="button" value="+" class="special hover" onClick="formcalc.answer.value += '+'"><br />
+	<input type="button" value="0" onClick="formcalc.answer.value += '0' " class="black hover">
+	<input type="button" value="00" onClick="formcalc.answer.value += '00' " class="black hover">
+	<input type="button" value="." onClick="formcalc.answer.value += '.' " class="black hover">
+	 <input type="button" value="=" onClick="formcalc.answer.value = eval(formcalc.answer.value)" class="special hover"/>
+	</div>
+	</form> 
+</body>
+</html>

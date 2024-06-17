@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+.cs{
+	width: 80px;
+	height: 30px;
+	border-radius: 50px;
+	background-color: lightgray;
+}
+body{
+	background-color:lightyellow;
+	margin-top: 200px;
+}
+.black{
+	width: 80px;
+	height: 30px;
+	border-radius: 70px;
+	background-color:darkgray;
+}
+.special{
+	 background-color:orange;
+	width: 80px;
+	height: 30px;
+	border-radius: 50px;
+}
+input[type=text]{
+	width: 400px;
+	height: 40px;
+	border-radius: 100px;
+}
+.hover:active{
+	background-color:#007bff;
+}
+@font-face{
+	font-family: raaz;
+	src: url(../Downloads/LEMONMILK-Regular.otf);
+}
+.black{
+	font-family: raaz;
+	font-size: 20px;
+	background-color:#454545 ;
+	color:white;
+}
+.cs{
+	font-family: raaz;
+	font-size: 20px;
+	color:black;
+}
+.special{
+	font-family: raaz;
+	font-size: 20px;
+    color: ghostwhite;
+}
+.RA{
+	font-size: 20px;
+}
