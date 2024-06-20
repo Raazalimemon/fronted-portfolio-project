@@ -32,7 +32,7 @@ input[type=text]{
 }
 @font-face{
 	font-family: raaz;
-	src: url(../Downloads/LEMONMILK-Regular.otf);
+	src: url(LEMONMILK-Regular.otf);
 }
 .black{
 	font-family: raaz;
